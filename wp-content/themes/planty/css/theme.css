@@ -8,6 +8,7 @@ body {
    margin: auto;
 }
 
+/*Titre H1*/
 h1{
    font-family: 'Syne', sans-serif;
    font-weight: 800;
@@ -16,6 +17,7 @@ h1{
    color: #FFFFFF;
 }
 
+/*Titre H2*/
 h2{
    font-family: 'Syne', sans-serif;
    font-weight: 700;
@@ -24,6 +26,7 @@ h2{
    color: #FFFFFF;
 }
 
+/*Paragraphe text*/
 p{
    font-family: 'Syne', sans-serif;
    font-weight: 400;
@@ -149,6 +152,15 @@ li.menu-item-39:hover{
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*HOME*/
+#container{
+   width: 100%;
+}
+
+.elementor-element-2bc2b43{
+   width: 100%;
+}
+
+
 /*Conteneur Page complete*/
 .elementor-element-b36a5ed{
    width: 100%;
@@ -158,178 +170,65 @@ li.menu-item-39:hover{
 /*Titre Principal "Boisson énergisante"*/
 h1.elementor-heading-title:nth-child(2){
    width: 100%;
-   margin-left: 180px;
+   margin: auto;
    margin-top: 50px;
 }
 
 /*Titre Principal "100% naturelle"*/
 .elementor-element-690c68d{
    width: 100%;
-   margin-left: -200px;
-   height: 90px;
+   margin: auto;
+  }
+
+h1.elementor-heading-title:nth-child(1){
+   width: 100%;
+   margin: auto;
 }
+
 .elementor-element-690c68d > div:nth-child(1){
    width: 100%;
    margin: auto;
 }
 
-/*************************************************/
-img.attachment-2048x2048:nth-child(2){
-   width: 100%;
- 
-}
-/*Image principal feuille gauche Planty*/
-.elementor-element-90142b3{
-   width: 100%;
-}
-/*Image principal canette Planty*/
-.elementor-element-1d92cf2{
-   width: 100%;
-
-}
-/*Image principal feuille droite Planty*/
-.elementor-element-9de8589 > div:nth-child(1){
-   width: 100%;
-
-}
-
-
-
-
-/*Conteneur "L'énergie des plantes"*/
-.elementor-element-cd1e9d8{
-   width: 100%;
-   height: 415px;
-}
-
-
-
-/*Conteneur "Ce qu'ils pensent"*/
-.elementor-element-19732f8{
-   width: 100%;
-   height: 638px;
-
-}
-
-/*Titre "Ce qu'ils pensent"*/
-.elementor-element-6e25574{
-   width: 582px;
-   height: 36px;
+/*Canette*/
+div.elementor-element:nth-child(5){
    margin: auto;
+   margin-top: -565px;
+   z-index: 2;
+}
+
+/*Feuille D*/
+div.elementor-element:nth-child(3) > div:nth-child(1) > img:nth-child(2){
+   margin-left: -925px;
+   margin-top: 210px;
+}
+
+/*Feuille G*/
+div.elementor-element:nth-child(4){
+   margin-left: 340px;
    margin-top: 150px;
 }
 
-/*Conteneur "Ce qu'ils pensent" 3 Photos Fathia Véro et Marc*/
-.elementor-element-bec3921{
-   width: 100%;
-   height: 376px;
-   margin-top: 120px; 
+/*************************************************/
+/*Conteneur "L'énergie des plantes"*/
+.elementor-element-91b07a5 > div:nth-child(1){
+   margin-top: 100px;
 }
+div.elementor-element:nth-child(2){
+   width: 100%;
+   height: auto;
+}
+/*************************************************/
+div.elementor-element:nth-child(3){
+   margin: auto;
+}
+
+/*************************************************/
 
 
 /*************************************************/
 
-/*Conteneur Image Fathia*/
-.elementor-element-552726d
-/* Image Fathia*/
-.elementor-element-4ff51dd{
-   width: 126.28px;
-   height: 139px;
-   margin-left: 132px;
-}
-/*OU Image Fathia*/
-.elementor-element-4ff51dd > div:nth-child(1)
-/*OU Image Fathia*/
-.wp-image-30
 
-/*Conteneur Titre+Texte Fathia*/
-.elementor-element-388ff18
-/*Conteneur Titre Fathia*/
-.elementor-element-262cbdd
-/*Titre Fathia*/
-.elementor-element-262cbdd > div:nth-child(1)
-/*Conteneur Texte Fathia*/
-.elementor-element-b83191a
-/*Texte Fathia*/
-.elementor-element-b83191a > div:nth-child(1)
-
-/*************************************************/
-
-/*Conteneur Image Véro*/
-.elementor-element-6628bd7{
-   width: 126.28px;
-   height: 139px;
-}
-/* Image Véro*/
-.img:nth-child(1)
-/*OU Image Véro*/
-.elementor-element-3714bf2 > div:nth-child(1)
-/*OU Image Fathia*/
-.wp-image-31
-
-/*Conteneur Titre+Texte Véro*/
-.elementor-element-db2fc8a
-/*Conteneur Titre Véro*/
-.elementor-element-1930ccc
-/*Titre Véro*/
-.elementor-element-1930ccc > div:nth-child(1)
-/*Conteneur Texte Véro*/
-.elementor-element-9ecfe42
-/*Texte Véro*/
-.elementor-element-9ecfe42 > div:nth-child(1)
-
-
-/*************************************************/
-
-/*Conteneur Image Marc*/
-.elementor-element-5d0c627
-/* Image Marc*/
-.elementor-element-ad1a9dd
-/*OU Image Marc*/
-.elementor-element-ad1a9dd > div:nth-child(2)
-/*OU Image Marc*/
-.wp-image-32{
-   width: 126.28px;
-   height: 139px;
-   margin-left: 960px;
-}
-
-
-/*Conteneur Titre+Texte Marc*/
-.elementor-element-96935f2
-/*Conteneur Titre Marc*/
-.elementor-element-4608955
-/*Titre Marc*/
-.elementor-element-4608955 > div:nth-child(2)
-/*Conteneur Texte Marc*/
-.elementor-element-ac6dcd1
-/*Texte Marc*/
-.elementor-element-ac6dcd1 > div:nth-child(2)
-
-
-
-
-/*************************************************/
-
-/*Conteneur bannière canettes*/
-.elementor-element-6f4f3f2{
-   width: 100%;
-   height: 262px;
- 
-}
-
-/*Image banière canettes*/
-.elementor-element-d166689{
-   width: 100%;
-   height: 262px;
-}
-
-.elementor-element-d166689 > div:nth-child(1)
-
-.elementor-element-d166689 > div:nth-child(1) > img:nth-child(1){
-   width: 100%;
-   height: 262px;
-}
 
 
 /*************************************************/
