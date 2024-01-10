@@ -37,7 +37,8 @@ function ajout_typographie() {
     echo '<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap" rel="stylesheet">';
 
     // Chargement de la typographie 
-    wp_enqueue_style('Syne', 'https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap');
+    wp_enqueue_style('Syne', get_stylesheet_directory_uri() . '/css/theme.css');
 }
 add_action('wp_enqueue_scripts', 'ajout_typographie');
 ?>
+
