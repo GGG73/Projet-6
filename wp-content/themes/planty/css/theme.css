@@ -1,39 +1,9 @@
-/*CSS****HEADER*FOOTER*HOME*NOUS RENCONTRER*COMMANDER**/
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap');
-
-
-/*Format PARAGRAPHE P tout le texte!! SIZE DIFF: Header Footer*/
-@font-face {
-   font-family: 'Syne';
-   font-weight: 400;
-   src: url('/css/fonts/Syne/Syne-Regular.woff2') format('woff2'), /* Format WOFF2 */
+/*CSS**GENERALE**HEADER*FOOTER*HOME*NOUS RENCONTRER*COMMANDER**/
+*{
+   border: solid blue !important;
 }
 
-/*Format H4 H5  sous titre HOME: "L'énergie des plantes, Fatiha, Vero, Marc.
- RENCONTRER: L'équipe, Nous contacter, H5  SIZE DIFF: Mégane, Brooke, Sylvie.
- COMMANDER: Votre commande, Vos informations, Livraison */
-@font-face {
-   font-family: 'Syne';
-   font-weight: 700;
-   src: url('/css/fonts/Syne/Syne-SemiBold.woff2') format('woff2'), /* Format WOFF2 */
-}
-
-/*Format H2 Page Nous rencontrer Commander (Titre H1bis)
- H3 "Les goûts, Ce qu'ils pensent */
-@font-face {
-   font-family: 'Syne';
-   font-weight: 800;
-   src: url('/css/fonts/Syne/Syne-Bold.woff2') format('woff2'), /* Format WOFF2 */      
-}
-
-/*Format H1 Page Home (dédié uniquement titre Principale + Titre Image Fraise Pamplemousse....!!) */
-@font-face {
-   font-family: 'Syne';
-   font-weight: 800;
-   src: url('/css/fonts/Syne/Syne-ExtraBold.woff2') format('woff2'), /* Format WOFF2 */      
-}
-
-
+/*GENERALE*/
 body {
    font-family: 'Syne', sans-serif;
    color: #000000;
@@ -49,8 +19,6 @@ h1{
    line-height: 57.6px;
    color: #FFFFFF;
 }
-
-
 
 /*Titre H2*/
 h2{
@@ -88,122 +56,132 @@ h5{
    color: #FFFFFF;
 }
 
-
 /*Paragraphe text*/
 p{
    font-family: 'Syne', sans-serif;
    font-weight: 400;
    font-size: 20px;
    line-height: 24px;
-   color: #000000
-   ;
+   color: #000000;
 }
 
-/*Header Footer text ?? */
-/*p.b{
-   font-family: 'Syne', sans-serif;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 19.2px;
-   color: #FFFFFF;
-}*/
 
-/* ?? #wrapper ?? */
-#wrapper{
-   width: 100%;
-   height: auto;
-}
+
+
+
 
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*HEADER*/
-/*Header format position, menu en ligne*/
+/*Header conteneur*/
 #header{
-   top: 0;
-   max-width: 100%;
-   margin: auto;
    display: flex;
-   flex-direction: row;
+   height: 80px;
+   align-items: center;
 }
 
-/*Supprimer visuel ...*/
+/*Logo*/
+.custom-logo{
+   width: 275px;
+   height: auto;
+}
+
+/*Image Logo*/
+.custom-logo-link{
+   object-fit: contain; 
+}
+ 
+/*Supprimer Titre et Slogan (description) du Site*/
 #branding{
    display: none;
 }
 
-/*Format position logo Planty*/
-.custom-logo {
-   width: auto;
-   height: 80px;
-}
-
-/*Balise???*/
-.custom-logo-link
-/*Balise???*/
-.container
-
-/*Menu en ligne*/
+/*Menu Nav en ligne*/
 #menu-menu-principale{
    display: flex;
-   max-width: 100%;
+   width: 100%;
+   height: 80px;
+   align-items: center;
+   justify-content: flex-end;
+}
+
+/*Conteneur Menu*/
+#menu{
+   width: 100%;
    margin: auto;
 }
 
-/*************************************************/
-/*Menu boutons*/
-
-/*Bouton "Nous rencontrer"*/
-li.menu-item-40 {
-   width: 200px;
-   height: 80px;
-   margin-left: 650px;
-   margin-right: -150px;
-   padding: 30px 15px;
-   display: inline-block; 
-   text-align: center;
+/*Header Lien <a> Menu*/
+#menu a{
+   font-family: 'Syne', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19.2px;
+   color: #000000;
 }
 
-/*Bouton "Commander"*/
-li.menu-item-39 {
-   width: 200px;
-   height: 80px;
-   margin-left: 308px;
-   padding: 30px 25px;
-   display: inline-block;
-   text-align: center;
-   background-color: #DC9F96;
-   color: #FFFFFF;
-   border: none;
+/*Header Lien <a> Menu SURVOL*/
+#menu a:hover{
+   font-family: 'Syne', sans-serif;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 15.6px;
+   color: #000000;
 }
 
-/*Bouton "Commander" survol de la souris*/
-li.menu-item-39:hover{
+/*NAV Nous rencontrer*/
+#menu-item-40{
+   order: 1;
+   width: 136px;
+   height: 80px;
+}
+
+/*NAV Commander*/
+#menu-item-39{
+   order: 3;
+   height: auto;
+   width: 236px;
+   height: 80px;
+   background-color: #E0B9B4;
+}
+
+/*NAV Commander TEXTE*/
+#menu-item-39 a{
+   font-family: 'Syne', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19.2px;
+   color: #FFFFFF; 
+}
+/*Commander conteneur */
+#menu-item-39:hover{
    background-color: #C02E44;
 }
 
-
-/*Bouton Admin*/
-#menu-menu-principale > li:nth-child(3) > a:nth-child(1){
-   width: 200px;
-   height: 80px;
-   margin-left: -400px;
-   color:#000000;
-   padding: 30px 15px;
-   display: inline-block; 
-   background-color: #FFFFFF;
-   text-align: center;
-   
-   
+/*NAV TEXTE Commander SURVOL*/
+#menu-item-39:hover a{
+   font-family: 'Syne', sans-serif;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 15.6px;
+   color: #FFFFFF;
 }
+
+/*NAV Admin*/
+#menu-menu-principale > li:nth-child(3){
+   order: 2;
+   width: 136px;
+   height: 80px;
+   color: #FFFFFF;
+}
+
+/*BEUG PADDING AUTO CENTRER TEXTE BOUTON MENU NAVIGATION*/
 
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*FOOTER     le lien retour page acceuil HS*/
-/*Footer Couleurs...*/
-
-
 /*Conteneur Footer*/
 #site-footer {
    width: 100%;
@@ -211,20 +189,20 @@ li.menu-item-39:hover{
    margin-bottom: auto;
 }
 
-/*Balise??*/
-#site-footer > a:nth-child(1)
-
-#site-footer > a:nth-child(1) > p:nth-child(1)
-
+/*Footer Couleurs...*/
 .header-footer-group{
-   color: #000000;
-   background-color: #FFFFFF;
    padding: 20px;
    height: 60px;
+   text-align: center;
+}
+
+/*Footer text*/
+.Ml{
+   font-family: 'Syne', sans-serif;
    font-weight: 400;
    font-size: 16px;
-   font-family: 'Syne', sans-serif;
-   text-align: center;
+   line-height: 19.2px;
+   color: #000000;
 }
 
 
@@ -232,116 +210,11 @@ li.menu-item-39:hover{
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*HOME*/
-#container{
-   width: 100%;
-}
-
-.elementor-element-2bc2b43{
+.home #container{
    width: 100%;
 }
 
 
-/*Conteneur Page complete*/
-.elementor-element-b36a5ed{
-   width: 100%;
-   height: 950px;
-}
-
-/*Titre Principal "Boisson énergisante"*/
-h1.elementor-heading-title:nth-child(2){
-   width: 100%;
-   margin: auto;
-   margin-top: 50px;
-}
-
-/*Titre Principal "100% naturelle"*/
-.elementor-element-690c68d{
-   width: 100%;
-   margin: auto;
-  }
-.elementor-element-6b64979 > div:nth-child(1){
-   width: 100%;
-   height: 88px;
-   margin: auto; 
-}
-
-
-
-h1.elementor-heading-title:nth-child(1){
-   width: 100%;
-   height: 88px;
-   margin: auto;
-}
-
-.elementor-element-690c68d > div:nth-child(1){
-   width: 100%;
-   margin: auto;
-}
-
-/*Canette*/
-div.elementor-element:nth-child(5){
-   margin: auto;
-   margin-top: -565px;
-   z-index: 2;
-}
-div.elementor-element:nth-child(3) > div:nth-child(1){
-   width: 100%;
-   height: 848px;
-}
-
-/*Feuille D  + beug erreur fond rose ???*/
-div.elementor-element:nth-child(3) > div:nth-child(1) > img:nth-child(2){
-   margin-left: -362px;
-   margin-top: 210px;
-}
-
-/*Feuille G*/
-div.elementor-element:nth-child(4){
-   margin-left: 340px;
-   margin-top: 150px;
-}
-
-
-/*Conteneur "L'énergie des plantes"*/
-.elementor-element-91b07a5 > div:nth-child(1){
-   margin-top: 100px;
-}
-div.elementor-element:nth-child(2){
-   width: 100%;
-   height: auto;
-}
-
-
-/*************************************************/
-
-
-/*Titre "Les goûts"*/
-.elementor-element-457ed20 > div:nth-child(1) > h2:nth-child(1){
-   color: #D2776A;
-   margin: auto;
-   text-align: center;
-   margin-top: 10px;
-}
-
-/*Image Fraise Pamplemousse Framboise Citron (Home) beug!!! */
-.elementor-element-1358f7d{
-   width: 100%;
-   margin: auto;
-  
-}
-.elementor-element-de39651{
-   width: 100%;
-   height: 869px;
-}
-
-div.elementor-element:nth-child(3){
-   width: 100%;
-   height: 36px;
-   margin: auto;
-
-}
-/*************************************************/
-/*************************************************/
 
 
 
@@ -349,26 +222,6 @@ div.elementor-element:nth-child(3){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*************************************************/
 
 
 
@@ -377,564 +230,11 @@ div.elementor-element:nth-child(3){
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*NOUS RENCONTRER*/
-/*Conteneur Page complete*/
-.elementor{
-   margin: auto;
-   width: 100%;
-   height: auto;
-}
 
 
-.elementor-element-6a237c0 > div:nth-child(1) > img:nth-child(2){
-   margin-top: 81px;
-   margin-left: 184.2px;
-   width: 145.3px;
-   height: 150.26px;
-}
-
-/*Conteneur fleur 20%*/
-.elementor-element-a53cb48{
-   width: 20%;
-}
-/*Conteneur élément TITRE TEXTE IMAGE*/
-.elementor-element-6b542e9{
-   width: 100%;
-   height: 415px;
-}
-
-/*Conteneur élément TITRE TEXTE 80%*/
-.elementor-element-8d7b988{
-   width: 80%;
-}
-
-
-/*Titre Principal "Nous renconter"*/
-.elementor-element-986747e > div:nth-child(1){
-   width: 680px;
-   height: 46px;
-   margin-top: 186px;
-   margin-left: -80px;
-}
-
-/*Texte Principal "Nous renconter"*/
-.elementor-element-4baf497 {
-   width: 669px;
-   height: 72px;
-   margin-left: 98px;
-}
-
-/*Image fleur rotation -70°*/
-img.attachment-thumbnail:nth-child(2){
-   margin-top: 151px;
-   margin-left: 284.2px;
-   rotate: 290deg ;
-   width: 145.3px;
-   height: 150.26px;
-   
-}
-
-
-/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
-/*L'équipe*/
-/*Conteneur de l'équipe*/
-.elementor-element-0875e95{
-   width: 100%;
-   height: 554px;
-}
-
-
-/*************************************************/
-/*Conteneur Mégane*/
-.elementor-element-efecd6f{
-   width: 33.33%;
-}
-
-/*Conteneur Photo Mégane*/
-.elementor-element-4e4c3fc{
-   width: 100%;
-   height: 100%;
-}
-/*Photo Mégane*/
-.elementor-element-4e4c3fc > div:nth-child(1){
-   width: 167px;
-   height: 167px;
-   margin-left: 312px;
-   margin-top: 228px;
-}
-
-/*Prenom Mégane*/
-.elementor-element-e7fcd18 {
-   margin-left: 350px;
-}
-
-/*Métier Mégane*/
-.elementor-element-0b61450 > div:nth-child(1){
-   margin-left: 350px;
-}
-
-
-/*************************************************/
-/*Conteneur Brooke*/
-.elementor-element-9a12d0d{
-   width: 33.33%;
-}
-
-/*Conteneur TITRE L'EQUIPE dans conteneur Brooke*/
-.elementor-element-62a7a90 > div:nth-child(1){
-   margin-top: 140px;
-}
-
-/*Conteneur Photo Brooke*/
-.elementor-element-bb24a9d{
-   width: 100%;
-   height: 100%;
-}
-
-/*Photo Brooke*/
-.elementor-element-bb24a9d > div:nth-child(1){
-   width: 167px;
-   height: 167px;
-   margin: auto;
-   margin-top: 28px;
-}
-
-/*Prenom Brooke*/
-.elementor-element-224a4a4 > div:nth-child(1){
-   margin: auto;
-}
-
-/*Métier Brooke*/
-.elementor-element-c9caef5 > div:nth-child(1){
-   margin: auto;
-}
-
-
-/*************************************************/
-/*Conteneur Sylvie*/
-.elementor-element-2ba26f8{
-   width: 33.33%;
-}
-
-/*Conteneur Photo Sylvie*/
-.elementor-element-ddf0f56{
-   width: 100%;
-   height: 100%;
-}
-
-/*Photo Sylvie*/
-.elementor-element-ddf0f56 > div:nth-child(1) > img:nth-child(1){
-   width: 167px;
-   height: 167px;
-   margin-left: -312px ;
-   margin-top: 228px;
-}
-
-/*Prenom Sylvie*/
-.elementor-element-28cb18f > div:nth-child(1){
-   margin-left: -312px ;
-}
-
-/*Métier Sylvie*/
-.elementor-element-3e37fbc > div:nth-child(1){
-   margin-left: -312px ;
-}
-
-/*************************************************/
-/*Feuille verte*/
-.elementor-element-1ebb1bb{
-   width: 100%;
-   height: 100%;
-}
-
-/*Feuille verte image*/
-.elementor-element-1ebb1bb > div:nth-child(1) > img:nth-child(1){
-   width: 191.21px;
-   height: 219.08px;
-   margin-top: 30px;
-   margin-left: 1050px;
-}
-
-/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
-/*SECTION FORMULAIRE DE CONTACT*/
-/*Conteneur du formulaire*/
-.elementor-element-ee4fdbf{
-   width: 100%;
-   background-color: #E0B9B4;
-}
-
-/*FORMULAIRE COMPLET (Nom Email Message Bouton)*/
-.elementor-element-968e99b{
-width: 100%;
-z-index: 2;
-}
-
-
-/*************************************************/
-/*Formulaire contact*/
-/*"Titre principal" formulaire contact "Nous contacter"*/
-h1.elementor-heading-title:nth-child(1){
-   margin: auto;
-   width: 100%;
-   height: 88px;
-}
-
-
-/*************************************************/
-/*Formulaire contact*/
-/*Supprimer info titre du formulaire "Nous contacter"*/
-.nf-form-title{
-   display: none;
-}
-/*Supprimer info champs obligatoire * des formulaire "nous contacter" et "commander"*/
-.nf-form-fields-required{
-   display: none;
-}
-
-/*Supprimer mes étoile * champs obligatoire des formulaires "nous contacter" et "commander"*/
-.ninja-forms-req-symbol{
-   display: none;
-}
-
-
-/*************************************************/
-/*Formulaire contact*/
-/*"Nom" formulaire "Nous contacter"*/
-#nf-label-field-5{
-   margin-left: 529px;
-}
-/*Conteneur ecriture "Nom" (Blanc) formulaire "Nous contacter"*/
-#nf-field-5{
-   margin-left: 529px;
-   width: 383px;
-   height: 71px;
-}
-
-/*"Email" formulaire "Nous contacter"*/
-#nf-label-field-6{
-   margin-left: 529px;
-}
-/*"Conteneur ecriture Email" (Blanc) formulaire "Nous contacter"*/
-#nf-field-6{
-   margin-left: 529px;
-   width: 383px;
-   height: 71px;
-}
-
-/*"Message" formulaire "Nous contacter"*/
-#nf-field-7-wrap > div:nth-child(1){
-   margin-left: 529px;
-}
-/*Conteneur ecriture "Message" (Blanc) formulaire "Nous contacter"*/
-#nf-field-7{
-   margin-left: 529px;
-   width: 383px;
-   height: 237px;
-}
-
-/*Bouton Envoyer formulaire "Nous contacter"*/
-#nf-field-8{
-   margin-left: 621px;
-   width: 198px;
-   height: 55px;
-   background-color: #E0B9B4;
-   color: #FFFFFF;
-   border-radius: 5px;
-   margin-left: 621px;
-}
-
-
-/*************************************************/
-/*Formulaire contact*/
-/*Image plante formulaire "Nous contacter"*/
-.elementor-element-6647cc0 > div:nth-child(1) > img:nth-child(1){
-   margin-left: 172px;
-   margin-top: 545px;
-   width: 147.32px;
-   height: 134.97px;
-   z-index: 1;
-}
-
-
-/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
-/*Conteneur pied de page banniere cannette*/
-.elementor-element-04c5920{
-   width: 100%;
-   height: 172px;
-
-}
-.elementor-element-e87b8a2{
-   width: 100%;
-   height: 172px;
-}
-
-/*Cannettes image banniere*/
-.elementor-element-e87b8a2 > div:nth-child(1) > img:nth-child(1){
-   width: 100%;
-   height: 172px;
- 
-}
 
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*COMMANDER*/
-/*Page complète background VERT*/
-.elementor-element-f97b15a{
-   width: 100%;
-}
 
-
-/*??Balise??*/
-div.elementor-element:nth-child(4)
-/*??Balise??*/
-div.elementor-element:nth-child(4) > div:nth-child(1)
-/*??Balise??*/
-.elementor-image-gallery
-
-/*Conteneur titre"COMMANDER"*/
-h1.elementor-heading-title{
-   width: 100%;
-}
-
-/*Titre "COMMANDER"*/
-.elementor-element-eed2b19{
-   width: 100%;
-   height: 46px;
-   margin-left: -150px;
-   font-family: 'Syne', sans-serif;
-   font-weight: 800;
-   font-size: 38px;
-   line-height: 45.6px;
-   text-align: center;
-}
-
-/*Séparateur horizontal blanc N:1*/
-.elementor-divider{
-   width: 860px;
-   margin: auto;
-   margin-top: 69px;
-}
-
-/*Titre "Votre commande  BEUG AVEC HOME canette+ feuille ?,??"*/
-div.elementor-element:nth-child(3)
-
-/*************************************************/
-/*Galerie*/
-#gallery-1{
-   width: 100%;
-   display: flex;
-}
-
-
-/*Conteneur Titre fraise*/
-#gallery-1-25{
-   z-index: 2;
-   margin-top: -50px;
-   margin-right: 150px;
-}
-
-/*Titre fraise*/
-dl.gallery-item:nth-child(1){
-   color: #FFFFFF;
-   margin-left: 306.01px;
-   font-weight: 800;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: center;
-}
-
-/*Image fraise*/
-dl.gallery-item:nth-child(1) > dt:nth-child(1){
-   width: 192.53px;
-   height: 128.36px;
-}
-
-/*??Balise??*/
-dl.gallery-item:nth-child(1) > dt:nth-child(1) > a:nth-child(1)
-
-
-/*************************************************/
-/*Conteneur Titre pamplemousse*/
-#gallery-1-19{
-   z-index: 2;
-   margin-top: 0px;
-   margin-left: 0px;
-}
-
-
-/*Titre pamplemousse*/
-dl.gallery-item:nth-child(2){
-   color: #FFFFFF;
-   margin-left: -99px;
-   font-weight: 800;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: center;
-   
-}
-
-/*Image pamplemousse*/
-dl.gallery-item:nth-child(2) > dt:nth-child(1){
-   width: 192.53px;
-   height: 128.36px;
-}
-
-/*??Balise??*/
-dl.gallery-item:nth-child(2) > dt:nth-child(1) > a:nth-child(1){
-   width: 100%;
-   margin-top: 0px;
-}
-
-
-/*************************************************/
-/*Conteneur Titre framboise*/
-#gallery-1-34{
-   z-index: 2;
-   margin-top: -50px;
-   margin-right: 155px;
-}
-
-/*Titre framboise*/
-dl.gallery-item:nth-child(3){
-   color: #FFFFFF;
-   margin-left: -99px;
-   font-weight: 800;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: center;
-   
-}
-
-/*Image framboise*/
-dl.gallery-item:nth-child(3) > dt:nth-child(1){
-   width: 192.53px;
-   height: 128.36px;
-}
-
-/*??Balise??*/
-dl.gallery-item:nth-child(3) > dt:nth-child(1) > a:nth-child(1)
-
-/*************************************************/
-/*Conteneur Titre citron*/
-#gallery-1-18{
-   z-index: 2;
-   margin-top: -50px;
-   margin-right: 155px;
-}
-
-/*Titre citron*/
-dl.gallery-item:nth-child(4){
-   color: #FFFFFF;
-  
-   font-weight: 800;
-   font-size: 20px;
-   line-height: 24px;
-   text-align: center;
-   
-}
-
-/*Image citron*/
-dl.gallery-item:nth-child(4) > dt:nth-child(1){
-   width: 192.53px;
-   height: 128.36px;
-}
-
-/*??Balise??*/
-dl.gallery-item:nth-child(4) > dt:nth-child(1) > a:nth-child(1)
-
-
-/*************************************************/
-/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
-/*************************************************/
-/*FORMULAIRE COMMANDER*/
-
-/*Conteneur Formulaire*/
-.elementor-element-71a3374{
-   width: 100%;
-}
-
-/*Conteneur Short-Code*/
-.elementor-element-ea3f93c{
-   width: 100%;
-}
-
-/*Conteneur 4 Inputs commnade en ligne*/
-.input{
-   width: 100%;
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   justify-content: center;
-   flex-direction: row;
-}
-
-
-/*************************************************/
-/*Supprimer label input fraise*/
-.quantite-fraise{
-   display: none;
-}
-
-/*Supprimer label input pamplemousse*/
-.quantite-pamplemousse{
-   display: none;
-}
-
-/*Supprimer label input framboise*/
-.quantite-framboise{
-   display: none;
-}
-
-/*Supprimer label input citron*/
-.quantite-citron{
-   display: none;
-}
-
-
-/*************************************************/
-/*Séparateur horizontal sous input commande*/
-.separateurH{
-   margin: auto;
-   margin-top: 30px;
-   margin-bottom: 30px;
-}
-
-/*Conteneur Info Client 2 colonnes*/
-.info-client{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   margin: 30px auto;
-   width: 860px;
-}
-
-/*Afficher Nom, Prénom, Email colonne de gauche*/
-.info-client > h2:nth-child(1),.info-client > p:nth-child(2),.info-client > p:nth-child(3), .info-client > p:nth-child(4){
-   grid-column-start: 1;
-   grid-column-end: 3;
-   width: 383px;
-   height: 71px;
-   border: 7px;
-}
-
-.info-client > h2:nth-child(5), .info-client > p:nth-child(6),.info-client > p:nth-child(7), .info-client > p:nth-child(8){
-   grid-column-start: 2;
-   grid-column-end: 3;
-}
-
-
-
-
-/*Bouton COMMANDER*/
-.wpcf7-submit{
-   width: 198px;
-   height: 55px;
-   border: 5px;
-   margin-left: 631px;
-   background-color: #E0B9B4;
-   color: #FFFFFF;
-   font-family: 'Syne', sans-serif;
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 37px;
-   text-align: center;
-   margin-bottom: 90px;
-}

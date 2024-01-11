@@ -30,15 +30,14 @@ add_filter('wp_nav_menu_items', 'modifier_menu_pour_utilisateur_connecte', 10, 2
 
 <?php
 // Fonction pour la typographie
-function ajout_typographie() {
+function ajouter_styles_et_preconexion() {
     // Lien de préconnexion
     echo '<link rel="preconnect" href="https://fonts.googleapis.com">';
     echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
-    echo '<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap" rel="stylesheet">';
-
+   
     // Chargement de la typographie 
-    wp_enqueue_style('Syne', get_stylesheet_directory_uri() . '/css/theme.css');
+    wp_enqueue_style('Syne','https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap', array(), null);
 }
-add_action('wp_enqueue_scripts', 'ajout_typographie');
+add_action('wp_enqueue_scripts', 'ajouter_styles_et_preconexion');
 ?>
 
