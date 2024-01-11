@@ -66,33 +66,31 @@ p{
 }
 
 
-
-
-
-
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*HEADER*/
+
 /*Header conteneur*/
 #header{
+
    display: flex;
    height: 80px;
    align-items: center;
 }
 
-/*Logo*/
+/*Conteneur logo*/
 .custom-logo{
    width: 275px;
    height: auto;
 }
 
-/*Image Logo*/
+/*Image logo*/
 .custom-logo-link{
    object-fit: contain; 
 }
  
-/*Supprimer Titre et Slogan (description) du Site*/
+/*Supprimer titre et slogan (description) du site*/
 #branding{
    display: none;
 }
@@ -210,13 +208,72 @@ p{
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*HOME*/
+/*Home SECTION image canette*/
 .home #container{
    width: 100%;
 }
 
+/*Padding top Conteneur titre*/
+.home .elementor-element-b36a5ed{
+   padding-top: 80px;
+}
 
+/*Conteneur 3 images*/
+.home .elementor-element-52e7e45{
+   width: 100%;
+   display: flex;
+}
 
+/*Conteneur*/
+.home .elementor-element-e872f88{
+   width: 100%;
+}
 
+/*Conteneur   BEUG NON 100% DE LARGEUR*/
+.home .e-con-inner{
+   width: 100%;
+  
+}
+/*Feuille de gauche*/
+.home .elementor-element-8ee9ce3{
+   width: 33%;
+   padding-top: 100px;
+}
+
+/*Canette*/
+.home .elementor-element-ba57524{
+   width: 33%;
+   z-index: 2;
+}
+
+/*Feuille de droite*/
+.home .elementor-element-09150f8{
+   width: 33%;
+   padding-top: 100px;
+}
+
+/*************************************************/
+/*Home SECTION L'énergie des plantes*/
+
+/*Texte "Planty, c’est la première boisson
+énergisante composée à 100 % de produits naturels..." */
+.home .elementor-element-aec91a0{
+   margin-top: 30px;
+}
+
+/*************************************************/
+/*Home SECTION Les goûts*/
+
+/*conteneur galerie 4 images*/
+.home .elementor-element-566e9c9{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.home .elementor-element-27cb8b2 > div:nth-child(1) > img:nth-child(1) > img:nth-child(2) > img:nth-child(3) > img:nth-child(4){
+   width: 393px;
+   height: 262px;
+}
 
 
 

@@ -40,4 +40,3 @@ function ajouter_styles_et_preconexion() {
 }
 add_action('wp_enqueue_scripts', 'ajouter_styles_et_preconexion');
 ?>
-
