@@ -262,7 +262,7 @@ p{
 }
 
 /*************************************************/
-/*Home SECTION Les goûts*/
+/*Home SECTION Les goûts IMAGES*/
 
 /*conteneur galerie 4 images*/
 .home .elementor-element-566e9c9{
@@ -270,11 +270,99 @@ p{
    grid-template-columns: 1fr 1fr;
 }
 
-.home .elementor-element-27cb8b2 > div:nth-child(1) > img:nth-child(1) > img:nth-child(2) > img:nth-child(3) > img:nth-child(4){
+/*Conteneur image fraise*/
+.home .elementor-element-27cb8b2 > div:nth-child(1) > img:nth-child(1){
+   width: 393px;
+   height: 262px;
+   margin-right: 0px;
+}
+
+/*Placement image fraise*/
+.home .elementor-element-27cb8b2 > div:nth-child(1){
+   padding-left: 268px;
+}
+
+
+/*Conteneur image pamplemousse*/
+.home .elementor-element-f6ba255 > div:nth-child(1) > img:nth-child(1){
    width: 393px;
    height: 262px;
 }
 
+/*Placement image pamplemousse*/
+.home .elementor-element-f6ba255 > div:nth-child(1){
+   padding-right: 268px;
+}
+
+/*Conteneur image framboise*/
+.home .elementor-element-77821b1 > div:nth-child(1) > img:nth-child(1){
+   width: 393px;
+   height: 262px;
+   margin-right: 0px;
+}
+
+/*Placement image framboise*/
+.home .elementor-element-77821b1 > div:nth-child(1){
+   padding-left: 268px;
+}
+
+/*Conteneur image citron*/
+.home .elementor-element-d08c8a8 > div:nth-child(1) > img:nth-child(1){
+   width: 393px;
+   height: 262px;
+}
+
+/*Placement image citron*/
+.home .elementor-element-d08c8a8 > div:nth-child(1){
+   padding-right: 268px;
+}
+/*************************************************/
+/*Conteneur Titre fraise*/
+.home .elementor-element-9f5b5f0 > div:nth-child(1){
+   width: 393px;
+   margin-left: 275px;
+   z-index: 2;
+}
+
+/*Conteneur Titre pamplemousse*/
+.home .elementor-element-89b88ab > div:nth-child(1){
+   width: 393px;
+   z-index: 2;
+}
+
+/*Conteneur Titre framboise*/
+.home .elementor-element-40cf025 > div:nth-child(1){
+   width: 393px;
+   margin-left: 275px;
+   z-index: 2;
+}
+
+/*Conteneur Titre citron*/
+.home .elementor-element-7fa3054 > div:nth-child(1){
+   width: 393px;
+   z-index: 2;
+}
+
+
+/*************************************************/
+/*Bouton Commander Home*/
+.home div.elementor-element:nth-child(9){
+   width: 100%;
+}
+
+/*Taille Bouton Commander Home*/
+.home .elementor-button{
+   width: 198px;
+   height: 55px;
+}
+
+/*Placement Bouton Commander Home*/
+.home div.elementor-element:nth-child(9){
+   margin-left: 580px;
+}
+
+
+/*************************************************/
 
 
 
@@ -284,6 +372,10 @@ p{
 
 
 /*************************************************/
+/*Cannettes pied de page*/
+
+
+
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*NOUS RENCONTRER*/
