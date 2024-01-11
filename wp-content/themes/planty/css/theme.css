@@ -269,6 +269,7 @@ p{
 .home .elementor-element-566e9c9{
    display: grid;
    grid-template-columns: 1fr 1fr;
+   height: 600px;
 }
 
 /*Conteneur image fraise*/
@@ -372,7 +373,7 @@ p{
 
 /*Placement Bouton Commander Home*/
 .home div.elementor-element:nth-child(9){
-   margin-left: 580px;
+   margin: auto;
 }
 
 /*Placement Bouton Commander Home*/
@@ -381,6 +382,7 @@ div.elementor-element:nth-child(9){
 }
 
 /*************************************************/
+/*Home SECTION Ce qu'ils en pensent*/
 
 
 
@@ -398,6 +400,10 @@ div.elementor-element:nth-child(9){
 /*************************************************/
 /*NOUS RENCONTRER*/
 
+
+
+
+/*Canettes pied de page*/
 
 
 /*************************************************/
