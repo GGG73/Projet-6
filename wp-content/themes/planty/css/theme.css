@@ -264,6 +264,7 @@ p{
 /*************************************************/
 /*Home SECTION Les goûts IMAGES*/
 
+
 /*conteneur galerie 4 images*/
 .home .elementor-element-566e9c9{
    display: grid;
@@ -324,10 +325,20 @@ p{
    z-index: 2;
 }
 
+/*Placement Conteneur Titre fraise*/
+.home .elementor-element-9f5b5f0{
+   bottom: 475px;
+}
+
 /*Conteneur Titre pamplemousse*/
 .home .elementor-element-89b88ab > div:nth-child(1){
    width: 393px;
    z-index: 2;
+}
+
+/*Placement Conteneur Titre pamplemousse*/
+.home .elementor-element-40cf025{
+   bottom: 350px;
 }
 
 /*Conteneur Titre framboise*/
@@ -337,12 +348,21 @@ p{
    z-index: 2;
 }
 
+/*Placement Conteneur Titre framboise*/
+.home .elementor-element-89b88ab{
+   bottom: 500px;
+}
+
 /*Conteneur Titre citron*/
 .home .elementor-element-7fa3054 > div:nth-child(1){
    width: 393px;
    z-index: 2;
 }
 
+/*Placement Conteneur Titre citron*/
+.home div.elementor-element:nth-child(8){
+   bottom: 320px;
+}
 
 /*************************************************/
 /*Bouton Commander Home*/
@@ -350,17 +370,15 @@ p{
    width: 100%;
 }
 
-/*Taille Bouton Commander Home*/
-.home .elementor-button{
-   width: 198px;
-   height: 55px;
-}
-
 /*Placement Bouton Commander Home*/
 .home div.elementor-element:nth-child(9){
    margin-left: 580px;
 }
 
+/*Placement Bouton Commander Home*/
+div.elementor-element:nth-child(9){
+   bottom: 250px;
+}
 
 /*************************************************/
 
