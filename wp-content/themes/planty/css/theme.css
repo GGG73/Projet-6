@@ -3,12 +3,28 @@
    border: solid blue !important;
 }
 
+/*Format PARAGRAPHE P tout le texte!! SIZE DIFF: Header Footer*/
+
+/*Format H4 H5  sous titre HOME: "L'énergie des plantes, Fatiha, Vero, Marc.
+ RENCONTRER: L'équipe, Nous contacter, H5  SIZE DIFF: Mégane, Brooke, Sylvie.
+ COMMANDER: Votre commande, Vos informations, Livraison */
+
+/*Format H2 Page Nous rencontrer Commander (Titre H1bis)
+ H3 "Les goûts, Ce qu'ils pensent */
+
+/*Format H1 Page Home (dédié uniquement titre Principale + Titre Image Fraise Pamplemousse....!!) */
+
 /*GENERALE*/
-body {
+body{
    font-family: 'Syne', sans-serif;
    color: #000000;
    max-width: 1440px;
    margin: auto;
+}
+
+/*Taille Home Main   height: 2770px;*/
+.home #content{
+   
 }
 
 /*Titre H1 Titre Page Home + dans les images Fraise Pamplemousse Framboise Citron (Home)*/
@@ -376,10 +392,6 @@ p{
    margin: auto;
 }
 
-/*Placement Bouton Commander Home*/
-div.elementor-element:nth-child(9){
-   bottom: 250px;
-}
 
 /*************************************************/
 /*Home SECTION Ce qu'ils en pensent*/
@@ -399,8 +411,9 @@ div.elementor-element:nth-child(9){
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*NOUS RENCONTRER*/
-
-
+ .nous-rencontrer h1.elementor-heading-title:nth-child(2){
+   margin-top: 20px;
+}
 
 
 /*Canettes pied de page*/
