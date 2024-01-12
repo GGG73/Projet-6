@@ -1,5 +1,5 @@
 /*CSS**GENERALE**HEADER*FOOTER*HOME*NOUS RENCONTRER*COMMANDER**/
-*{
+/*{
    border: solid blue !important;
 }
 
@@ -22,12 +22,11 @@ body{
    margin: auto;
 }
 
-/*Taille Home Main   height: 2770px;*/
-.home #content{
-   
+/*Taille totale Home <Main> height: 2770px;*/
+.home #content{ 
 }
 
-/*Titre H1 Titre Page Home + dans les images Fraise Pamplemousse Framboise Citron (Home)*/
+/*Titre H1*/
 h1{
    font-family: 'Syne', sans-serif;
    font-weight: 800;
@@ -81,7 +80,6 @@ p{
    color: #000000;
 }
 
-
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
@@ -89,7 +87,6 @@ p{
 
 /*Header conteneur*/
 #header{
-
    display: flex;
    height: 80px;
    align-items: center;
@@ -168,6 +165,7 @@ p{
    line-height: 19.2px;
    color: #FFFFFF; 
 }
+
 /*Commander conteneur */
 #menu-item-39:hover{
    background-color: #C02E44;
@@ -195,7 +193,7 @@ p{
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
-/*FOOTER     le lien retour page acceuil HS*/
+/*FOOTER*/
 /*Conteneur Footer*/
 #site-footer {
    width: 100%;
@@ -218,7 +216,6 @@ p{
    line-height: 19.2px;
    color: #000000;
 }
-
 
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
@@ -280,7 +277,6 @@ p{
 /*************************************************/
 /*Home SECTION Les goûts IMAGES*/
 
-
 /*conteneur galerie 4 images*/
 .home .elementor-element-566e9c9{
    display: grid;
@@ -299,7 +295,6 @@ p{
 .home .elementor-element-27cb8b2 > div:nth-child(1){
    padding-left: 268px;
 }
-
 
 /*Conteneur image pamplemousse*/
 .home .elementor-element-f6ba255 > div:nth-child(1) > img:nth-child(1){
@@ -334,7 +329,9 @@ p{
 .home .elementor-element-d08c8a8 > div:nth-child(1){
    padding-right: 268px;
 }
+
 /*************************************************/
+/*Titre H1 blanc*/
 /*Conteneur Titre fraise*/
 .home .elementor-element-9f5b5f0 > div:nth-child(1){
    width: 393px;
@@ -382,6 +379,7 @@ p{
 }
 
 /*************************************************/
+/*BOUTON*/
 /*Bouton Commander Home*/
 .home div.elementor-element:nth-child(9){
    width: 100%;
@@ -391,7 +389,6 @@ p{
 .home div.elementor-element:nth-child(9){
    margin: auto;
 }
-
 
 /*************************************************/
 /*Home SECTION Ce qu'ils en pensent*/
@@ -411,9 +408,138 @@ p{
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*NOUS RENCONTRER*/
- .nous-rencontrer h1.elementor-heading-title:nth-child(2){
+/*Placement Titre*/
+.nous-rencontrer h1.elementor-heading-title:nth-child(2){
    margin-top: 20px;
 }
+
+/*Conteneur Nous rencontrer + fleur*/
+.nous-rencontrer .elementor-element-8d7b988{
+   display: flex;
+   flex-direction: row;
+}
+
+/*Element Titre NOUS RENCONTRER*/
+.nous-rencontrer .elementor-element-986747e{
+   order: 2;
+   padding-top: 60px;
+}
+
+/*Element Texte NOUS RENCONTRER*/
+.nous-rencontrer .elementor-element-4baf497{
+  order: 3;
+}
+
+/*Element Fleur*/
+.nous-rencontrer .elementor-element-6a237c0{
+   order: 1;
+   width: 145.3px;
+   height: 150.26px;
+   rotate: 290deg;
+   margin-left: 170px;
+}
+
+/*************************************************/
+/*L'EQUIPE*/
+/*Placement Conteneur L'équipe*/
+.nous-rencontrer .elementor-element-0875e95{
+   padding-top: 134px;
+}
+
+/*************************************************/
+/*NOUS CONTACTER FORMULAIRE*/
+
+/*Format placement Formulaire*/
+.nous-rencontrer #nf-form-2-cont{
+   width: 32.55%;
+   margin: auto;
+}
+
+/*SUPPRIMER Titre FORMULAIRE*/
+.nous-rencontrer #nf-form-title-2 > h3:nth-child(1){
+   display: none;
+}
+
+/*SUPPRIMER Champ obligatoires.. FORMULAIRE*/
+.nous-rencontrer .nf-form-fields-required {
+   display: none;
+}
+
+/*SUPPRIMER Champ * FORMULAIRE*/
+.nous-rencontrer #nf-label-field-5 > span:nth-child(1){
+   display: none;
+}
+
+/*SUPPRIMER Champ * FORMULAIRE*/
+.nous-rencontrer #nf-label-field-6 > span:nth-child(1){
+   display: none;
+}
+
+/*SUPPRIMER Champ * FORMULAIRE*/
+.nous-rencontrer #nf-label-field-7 > span:nth-child(1){
+   display: none;
+}
+
+/*Taille Input NOM*/
+.nous-rencontrer #nf-field-5{
+   height: 71px;
+}
+
+/*Taille Input Email*/
+.nous-rencontrer #nf-field-6{
+   height: 71px;
+}
+
+/*Taille Input MESSAGE*/
+.nous-rencontrer #nf-field-7{
+   height: 237px;
+}
+/*Bouton ENVOYER*/
+.nous-rencontrer #nf-field-8{
+   width: 198px;
+   height:55px;
+   background-color: #E0B9B4;
+   border-radius: 5px;
+}
+
+/*Conteneur Bouton ENVOYER*/
+.nous-rencontrer #nf-field-8-wrap > div:nth-child(2){
+   width: 52%;
+   margin:auto;
+}
+
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+.nous-rencontrer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Canettes pied de page*/
