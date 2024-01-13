@@ -22,10 +22,6 @@ body{
    margin: auto;
 }
 
-/*Taille totale Home <Main> height: 2770px;*/
-.home #content{ 
-}
-
 /*Titre H1*/
 h1{
    font-family: 'Syne', sans-serif;
@@ -220,6 +216,8 @@ p{
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
+/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
+/*************************************************/
 /*HOME*/
 /*Home SECTION image canette*/
 .home #container{
@@ -405,6 +403,10 @@ p{
 
 
 
+
+/*************************************************/
+/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
+/*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*NOUS RENCONTRER*/
@@ -422,12 +424,13 @@ p{
 /*Element Titre NOUS RENCONTRER*/
 .nous-rencontrer .elementor-element-986747e{
    order: 2;
-   padding-top: 60px;
+   padding-top: 100px;
 }
 
 /*Element Texte NOUS RENCONTRER*/
 .nous-rencontrer .elementor-element-4baf497{
   order: 3;
+  height: 125px;
 }
 
 /*Element Fleur*/
@@ -437,23 +440,65 @@ p{
    height: 150.26px;
    rotate: 290deg;
    margin-left: 170px;
+   margin-top: 40px;
 }
 
 /*************************************************/
 /*L'EQUIPE*/
 /*Placement Conteneur L'équipe*/
 .nous-rencontrer .elementor-element-0875e95{
-   padding-top: 134px;
+   padding-top: 114px;
+   bottom: 30px;
 }
 
-/*************************************************/
-/*NOUS CONTACTER FORMULAIRE*/
+/*L'EQUIPE Bloc Mégane*/
+.nous-rencontrer .elementor-element-efecd6f{
+   width: 25%;
+   padding-top: 82px;
+}
 
-/*Format placement Formulaire*/
-.nous-rencontrer #nf-form-2-cont{
-   width: 32.55%;
+/*L'EQUIPE Bloc Brooke*/
+.nous-rencontrer .elementor-element-9a12d0d{
+   width: 25%;
+   
+}
+
+/*L'EQUIPE Bloc Sylvie*/
+.nous-rencontrer .elementor-element-2ba26f8{
+   width: 25%;
+   padding-top: 82px;
+}
+
+/*Conteneur Feuille de L'EQUIPE*/
+.nous-rencontrer .elementor-element-1ebb1bb{
+   width: 202px;
+   height: 230px;
+   margin-left: 1150px;
+   top: -235px;
+}
+
+/*Image Feuille de L'EQUIPE*/
+.nous-rencontrer .elementor-element-1ebb1bb > div:nth-child(1) > img:nth-child(1){
+   width: 100%;
+   height: 100%;
+}
+
+                                                    /*************************************************/
+                                                    /*************************************************/
+              /*************************************************BEUG FORMULAIRE + FEUILLE*************************************************/
+                                                    /*************************************************/
+                                                    /*************************************************/
+
+
+
+/*NOUS CONTACTER FORMULAIRE*/
+.nous-rencontrer .elementor-element-968e99b{
+   width: 32.5%;
    margin: auto;
 }
+
+/*Format placement Formulaire*/
+.nous-rencontrer #nf-form-2-cont
 
 /*SUPPRIMER Titre FORMULAIRE*/
 .nous-rencontrer #nf-form-title-2 > h3:nth-child(1){
@@ -480,19 +525,31 @@ p{
    display: none;
 }
 
+/*Taille Label NOM EMAIL MESSAGE*/
+.nous-rencontrer #nf-label-field-5, #nf-label-field-6, #nf-label-field-7{
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+
 /*Taille Input NOM*/
 .nous-rencontrer #nf-field-5{
    height: 71px;
+   border-radius: 7px;
 }
 
 /*Taille Input Email*/
 .nous-rencontrer #nf-field-6{
    height: 71px;
+   border-radius: 7px;
 }
 
 /*Taille Input MESSAGE*/
 .nous-rencontrer #nf-field-7{
    height: 237px;
+   border-radius: 7px;
 }
 /*Bouton ENVOYER*/
 .nous-rencontrer #nf-field-8{
@@ -508,45 +565,31 @@ p{
    margin:auto;
 }
 
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-.nous-rencontrer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Fleur sous FORMULAIRE z-index..*/
+.nous-rencontrer div.elementor-element:nth-child(5){
+   padding-left: 395px;
+   padding-top: 535px;
+}
 
 
 
 /*Canettes pied de page*/
 
-
+/*************************************************/
+/*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*COMMANDER*/
+
+.commander .elementor-divider{
+   width: 860px;
+   margin: auto;
+}
+
+
+/*Titre Votre commande*/
+.commander div.elementor-element:nth-child(3){
+   margin-left: 20%;
+}
 
