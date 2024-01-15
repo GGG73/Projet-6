@@ -140,7 +140,7 @@ p{
 /*NAV Nous rencontrer*/
 #menu-item-40{
    order: 1;
-   width: 136px;
+   width: 12%;
    height: 80px;
 }
 
@@ -148,7 +148,7 @@ p{
 #menu-item-39{
    order: 3;
    height: auto;
-   width: 236px;
+   width: 16.39%;
    height: 80px;
    background-color: #E0B9B4;
 }
@@ -179,7 +179,7 @@ p{
 /*NAV Admin*/
 #menu-menu-principale > li:nth-child(3){
    order: 2;
-   width: 136px;
+   width: 10%;
    height: 80px;
    color: #FFFFFF;
 }
@@ -279,9 +279,10 @@ p{
 .home .elementor-element-566e9c9{
    display: grid;
    grid-template-columns: 1fr 1fr;
-   height: 600px;
+   width: 100%;
+   height: 41.67%;
 }
-
+.elementor-element-27cb8b2
 /*Conteneur image fraise*/
 .home .elementor-element-27cb8b2 > div:nth-child(1) > img:nth-child(1){
    width: 393px;
@@ -581,15 +582,285 @@ p{
 /*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*.*/
 /*************************************************/
 /*COMMANDER*/
+/*Conteneur Titre*/
+.commander .elementor-element-eed2b19 > div:nth-child(1){
+   width: 100%;
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 40px;
+}
 
-.commander .elementor-divider{
-   width: 860px;
+/*Conteneur conteneur Titre*/
+.commander .elementor-element-eed2b19{
+   width: 50%;
    margin: auto;
 }
 
+/*Conteneur conteneur Séparateur horizontal Blanc*/
+.commander .elementor-element-ba5cf68{
+   width:100%
+}
+
+/*Conteneur Séparateur horizontal Blanc*/
+.commander .elementor-element-ba5cf68 > div:nth-child(1){
+   width: 59.72%;
+   margin: auto;
+}
+
+/*Séparateur horizontal Blanc*/
+.commander .elementor-divider{
+   width: 100%;
+   margin-bottom: 40px;
+}
 
 /*Titre Votre commande*/
 .commander div.elementor-element:nth-child(3){
+   width: 50%;
    margin-left: 20%;
 }
+
+/*************************************************/
+/*Conteneur conteneur Taille formulaire Commande*/
+.commander div.elementor-element:nth-child(4){
+width: 59.72%;
+margin: auto;
+}  
+
+/*Conteneur formulaire Commande*/
+.commander #gallery-1{
+   justify-content: space-between;
+}
+
+
+/*Titre de l'image fraise*/
+.commander #gallery-1-25{
+   margin: auto;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 24px;
+   text-align: center;
+}
+
+/*Titre de l'image pamplemousse*/
+.commander #gallery-1-19{
+   margin: auto;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 24px;
+   text-align: center;
+}
+
+/*Titre de l'image framboise*/
+.commander #gallery-1-34{
+   margin: auto;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 24px;
+   text-align: center;
+}
+
+/*Titre de l'image citron*/
+.commander #gallery-1-18{
+   margin: auto;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 24px;
+   text-align: center;
+}
+
+/*Taille de l'image fraise*/
+.commander dl.gallery-item:nth-child(1) > dt:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+   width: 192.53px;
+   height: 128.36px;
+}
+
+/*Taille de l'image pamplemousse*/
+.commander dl.gallery-item:nth-child(2) > dt:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+   width: 192.53px;
+   height: 128.36px;
+}
+
+/*Taille de l'image framboise*/
+.commander dl.gallery-item:nth-child(3) > dt:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+   width: 192.53px;
+   height: 128.36px;
+}
+
+/*Taille de l'image citron*/
+.commander dl.gallery-item:nth-child(4) > dt:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+   width: 192.53px;
+   height: 128.36px;
+}
+
+/*Taille Formulaire*/
+.commander .elementor-element-ea3f93c{
+   width: 59.72%;
+   margin: auto;
+}
+
+/*************************************************/
+/*Input en ligne*/
+.commander .input{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-content: center;
+   flex-direction: row;
+}
+
+/*Input fraise*/
+.commander .input > p:nth-child(1){
+   width: 25%;
+   margin: auto;
+}
+
+/*Input fraise*/
+.commander .input > p:nth-child(1) > span:nth-child(3) > input:nth-child(1){
+   width: 39px;
+   height: 56px;
+}
+
+/*Supprimer label input fraise*/
+.commander .quantite-fraise{
+   display: none;
+}
+
+/*Input pamplemousse*/
+.commander .input > p:nth-child(2){
+   width: 25%;
+   margin: auto;
+}
+
+/*Input pamplemousse*/
+.commander .input > p:nth-child(2) > span:nth-child(3) > input:nth-child(1){
+   width: 39px;
+   height: 56px;
+}
+
+/*Supprimer label input pamplemousse*/
+.commander .quantite-pamplemousse{
+   display: none;
+}
+
+/*Input Framboise*/
+.commander .input > p:nth-child(3){
+   width: 25%;
+   margin: auto;
+}
+
+/*Input Framboise*/
+.commander .input > p:nth-child(3) > span:nth-child(3) > input:nth-child(1){
+   width: 39px;
+   height: 56px;
+}
+
+/*Supprimer label input framboise*/
+.commander .quantite-framboise{
+   display: none;
+}
+
+/*Input Citron*/
+.commander .input > p:nth-child(4){
+   width: 25%;
+   margin: auto;
+}
+
+/*Input Citron*/
+.commander .input > p:nth-child(4) > span:nth-child(3) > input:nth-child(1){
+   width: 39px;
+   height: 56px;
+}
+
+/*Supprimer label input citron*/
+.commander .quantite-citron{
+   display: none;
+}
+
+
+/*************************************************/
+/*Séparateur horizontal sous input commande*/
+.commander .horizontal
+/*Séparateur horizontal sous input commande*/
+.commander .separateurH{
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+/*Conteneur Info Client 3 colonnes*/
+.commander .wpcf7-form > id\=formulaire:nth-child(4){
+   display: grid;
+   grid-template-columns: 49% 1% 49%;
+   margin: 30px auto;
+   width: 100%;
+}
+/*Taille colonne Gauche*/
+.commander .info-client{
+   width: 90%;
+}
+
+/*Taille colonne Droite*/
+.commander .ad-client{
+   width: 90%;
+}
+
+/*Afficher Nom, Prénom, Email colonne de gauche*/
+.commander .info-client > h2:nth-child(1),.info-client > p:nth-child(2),.info-client > p:nth-child(3), .info-client > p:nth-child(4){
+   grid-column-start: 1;
+   grid-column-end: 2;
+   width: 100%;
+   border: 7px;
+}
+
+/*Afficher separateur blanc veretical*/
+.commander .vertical{
+   grid-column-start: 2;
+   grid-column-end: 3;
+   width: 100%;
+   height: 447px;
+   margin: auto;
+}
+
+/*Afficher Adresse, Code postal, Ville colonne de droite*/
+.commander .ad-client > h2:nth-child(5), .ad-client > p:nth-child(6),.ad-client > p:nth-child(7), .ad-client > p:nth-child(8){
+   grid-column-start: 3;
+   grid-column-end: 4;
+   width: 100%;
+   border: 7px;
+}
+
+/*Bouton COMMANDER*/
+.commander .wpcf7-submit{
+   width: 198px;
+   height: 55px;
+   border-radius: 5px;
+   margin: auto;
+   background-color: #E0B9B4;
+   color: #FFFFFF;
+   font-family: 'Syne', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 37px;
+   text-align: center;
+}
+
+/*Bouton COMMANDER SURVOL*/
+.commander .wpcf7-submit:hover{
+   background-color: #C02E44;
+}
+
+.commander 
+.commander
+.commander
+.commander
+.commander
+.commander
+.commander
+.commander
+
+
 
