@@ -587,7 +587,7 @@ p{
    width: 100%;
    margin: auto;
    margin-top: 50px;
-   margin-bottom: 40px;
+   margin-bottom: 30px;
 }
 
 /*Conteneur conteneur Titre*/
@@ -610,7 +610,7 @@ p{
 /*Séparateur horizontal Blanc*/
 .commander .elementor-divider{
    width: 100%;
-   margin-bottom: 40px;
+   margin-bottom: 30px;
 }
 
 /*Titre Votre commande*/
@@ -783,8 +783,6 @@ margin: auto;
 
 /*************************************************/
 /*Séparateur horizontal sous input commande*/
-.commander .horizontal
-/*Séparateur horizontal sous input commande*/
 .commander .separateurH{
    margin: auto;
    margin-top: 30px;
@@ -794,18 +792,19 @@ margin: auto;
 /*Conteneur Info Client 3 colonnes*/
 .commander .wpcf7-form > id\=formulaire:nth-child(4){
    display: grid;
-   grid-template-columns: 49% 1% 49%;
+   grid-template-columns: 48% 4% 48%;
    margin: 30px auto;
    width: 100%;
 }
 /*Taille colonne Gauche*/
 .commander .info-client{
-   width: 90%;
+   width: 100%;
 }
 
 /*Taille colonne Droite*/
 .commander .ad-client{
-   width: 90%;
+   width: 100%;
+  
 }
 
 /*Afficher Nom, Prénom, Email colonne de gauche*/
@@ -822,7 +821,6 @@ margin: auto;
    grid-column-end: 3;
    width: 100%;
    height: 447px;
-   margin: auto;
 }
 
 /*Afficher Adresse, Code postal, Ville colonne de droite*/
@@ -831,6 +829,118 @@ margin: auto;
    grid-column-end: 4;
    width: 100%;
    border: 7px;
+}
+
+/*************************************************/
+/*Marge bottom Titre Vos infos*/
+.commander .info-client > h4:nth-child(1){
+   margin-bottom: 20px;
+}
+
+/*Marge bottom Titre Livraison*/
+.commander .ad-client > h4:nth-child(1){
+   margin-bottom: 20px;
+   margin-left: 10%;
+}
+
+/*Afficher Nom en blanc*/
+.commander .info-client > p:nth-child(2) > label:nth-child(1){
+   color: #FFFFFF;
+}
+
+/*Afficher Prénom en blanc*/
+.commander .info-client > p:nth-child(3) > label:nth-child(1){
+   color: #FFFFFF;
+}
+
+/*Afficher E-mail en blanc*/
+.commander .info-client > p:nth-child(4) > label:nth-child(1){
+   color: #FFFFFF;
+}
+
+/*Afficher Ad livraison en blanc*/
+.commander .ad-client > p:nth-child(2) > label:nth-child(1){
+   color: #FFFFFF;
+   margin-left: 10%;
+}
+
+/*Afficher Code postal en blanc*/
+.commander .ad-client > p:nth-child(3) > label:nth-child(1){
+   color: #FFFFFF;
+   margin-left: 10%;
+}
+
+/*Afficher Ville en blanc*/
+.commander .ad-client > p:nth-child(4) > label:nth-child(1){
+   color: #FFFFFF;
+   margin-left: 10%;
+   margin-bottom: 10%;
+}
+
+/*************************************************/
+/*Taille input Nom */
+.commander .info-client > p:nth-child(2) > span:nth-child(3) > input:nth-child(1){
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+/*Taille input Préom */
+.commander .info-client > p:nth-child(3) > span:nth-child(3) > input:nth-child(1){
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+/*Taille input E-mail */
+.commander .wpcf7-email{
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+/*Taille input Ad */
+.commander .ad-client > p:nth-child(2) > span:nth-child(3) > input:nth-child(1){
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   margin-left: 10%;
+}
+
+/*Taille input Code postal */
+.commander .ad-client > p:nth-child(3) > span:nth-child(3) > input:nth-child(1){
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   margin-left: 10%;
+}
+
+/*Taille input Ville */
+.commander .ad-client > p:nth-child(4) > span:nth-child(3) > input:nth-child(1){
+   width: 383px;
+   height: 71px;
+   border-radius: 7px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   margin-left: 10%;
+
+}
+
+/*************************************************/
+/*Conteneur conteneur Bouton COMMANDER*/
+.commander .wpcf7-form > p:nth-child(5){
+   width: 50%;
+   margin: auto;
 }
 
 /*Bouton COMMANDER*/
@@ -852,15 +962,5 @@ margin: auto;
 .commander .wpcf7-submit:hover{
    background-color: #C02E44;
 }
-
-.commander 
-.commander
-.commander
-.commander
-.commander
-.commander
-.commander
-.commander
-
 
 
